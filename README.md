@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    ```sh
+    trading price btc
+    ```
+![demo](https://user-images.githubusercontent.com/5812161/62424588-cb46ba00-b6fa-11e9-844e-24b8ee19a3e8.png)
 
 ## Development
 
