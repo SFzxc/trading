@@ -7,7 +7,7 @@ Support trading and checking coin marketrate via terminal. Binance is default ex
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'trading'
+gem 'coin_trading'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install trading
+    $ gem install coin_trading
 
 ## Usage
 
