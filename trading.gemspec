@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["SFzxc"]
   spec.email         = ["hoangphuocvalong@gmail.com"]
 
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
+  spec.summary       = %q{Support trading via cli}
+  spec.description   = %q{Check coins price on binance exchange}
   spec.homepage      = "https://github.com/SFzxc/trading"
   spec.license       = "MIT"
 
