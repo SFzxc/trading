@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "trading/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "trading"
+  spec.name          = "coin_trading"
   spec.version       = Trading::VERSION
   spec.authors       = ["SFzxc"]
   spec.email         = ["hoangphuocvalong@gmail.com"]
