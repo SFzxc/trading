@@ -1,8 +1,6 @@
 # Trading
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/trading`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Support trading and checking coin marketrate via terminal. Binance is default exchange
 
 ## Installation
 
@@ -22,9 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-```sh
-trading price btc
-```
+    $ trading price btc
 
 ![demo](https://user-images.githubusercontent.com/5812161/62424588-cb46ba00-b6fa-11e9-844e-24b8ee19a3e8.png)
 

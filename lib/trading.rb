@@ -1,8 +1,6 @@
 require "trading/version"
+require 'trading/price_table'
 require 'gli'
-require 'terminal-table'
-require 'rainbow'
-require 'binance'
 
 include GLI::App
 
@@ -11,7 +9,7 @@ module Trading
 
   version Trading::VERSION
 
-  desc 'Get prices for all currency pairs on popular exchanges'
+  desc 'Get prices for all currency pairs on binance exchanges'
   command :price do |c|
     c.switch :d
     c.action do |global_options, options, args|
@@ -27,15 +25,11 @@ module Trading
         coin_currencies = prices.select { |x| x['symbol'].start_with?(coin_name) }
       end
 
-      @table = Terminal::Table.new headings: %w(Pair LastPrice)
-      @table.align_column(0,:right)
+      table = Trading::PriceTable.new
       coin_currencies.each do |coin_currency|
-        row = []
-        row << Rainbow("#{coin_currency['symbol']}").color(:green)
-        row << Rainbow("#{coin_currency['price']}").color(:green)
-        @table << row
+        table.format(coin_currency)
       end
-      puts @table.to_s
+      table.print_to_console
     end
   end
 
