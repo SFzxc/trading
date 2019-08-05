@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "coin_trading"
   spec.version       = Trading::VERSION
   spec.authors       = ["SFzxc"]
-  spec.email         = ["hoangphuocvalong@gmail.com"]
+  spec.email         = ["hoangphuocvanlong@gmail.com"]
 
   spec.summary       = %q{Support trading via cli}
   spec.description   = %q{Check coins price on binance exchange}
