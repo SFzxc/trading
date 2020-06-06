@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    trading (0.1.0)
+    coin_trading (0.1.0)
       binance (= 1.2.0)
       gli
       rainbow
@@ -16,14 +16,14 @@ GEM
       faye-websocket (~> 0.10)
     coderay (1.1.2)
     eventmachine (1.2.7)
-    faraday (0.15.4)
+    faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.13.1)
+    faraday_middleware (0.14.0)
       faraday (>= 0.7.4, < 1.0)
     faye-websocket (0.10.9)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
-    gli (2.18.1)
+    gli (2.19.1)
     method_source (0.9.2)
     minitest (5.11.3)
     multipart-post (2.1.1)
@@ -35,19 +35,19 @@ GEM
     rainbow (3.0.0)
     rake (10.5.0)
     terminal-table (1.5.2)
-    websocket-driver (0.7.1)
+    websocket-driver (0.7.2)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   bundler (~> 2.0)
+  coin_trading!
   minitest (~> 5.0)
   pry-rails
   rake (~> 10.0)
-  trading!
 
 BUNDLED WITH
    2.0.1
